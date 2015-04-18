@@ -3,3 +3,5 @@
 /.cache
 /.sass-cache
 /build
+.ruby-gemset
+.ruby-version
