@@ -24,6 +24,9 @@ activate :deploy do |deploy|
   deploy.method = :git
 end
 
+sprockets.import_asset 'html5shiv'
+sprockets.import_asset 'respond.min'
+
 helpers do
   def nav_link(link_text, page_url, options = {})
     options[:class] ||= ""

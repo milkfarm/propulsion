@@ -16,12 +16,10 @@
     = javascript_include_tag 'html5shiv', 'respond.min'
     <![endif]-->
 
-  - splash = ( yield_content :splash )
-
-  %body{class: "#{page_classes} dark #{splash.present? ? 'bottom-nav' : 'top-nav'}"}
+  %body{class: "#{page_classes} dark top-nav"}
     .container-fluid
       = partial 'partials/header'
-      - if splash.present?
+      - if splash = ( yield_content :splash )
         = splash
 
       = yield

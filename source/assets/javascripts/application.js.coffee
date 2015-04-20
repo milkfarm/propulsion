@@ -1,1 +1,11 @@
-//= require_tree .
+//= require 'bootstrap'
+//= require 'functions'
+//= require 'isotope.pkgd.min'
+//= require 'jquery.easing.min'
+//= require 'jquery.mobile.custom.min'
+//= require 'jquery.placeholder'
+//= require 'jquery.waypoints.min'
+//= require 'loader'
+//= require 'tera-lightbox'
+//= require 'tera-slider'
+//= require 'validation'

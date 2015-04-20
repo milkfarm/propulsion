@@ -1,11 +1,45 @@
 ---
-title: Page Title
+title: home | propulsion
 ---
 
-.delete-me
-  .container
-    %h1 Proteus
-    %p
-      You're all set!
-      <a href="http://github.com/thoughtbot/proteus-middleman">Let's get started</a>
-      building your prototype.
+- content_for :splash do
+  .slider
+    %ul.slides
+      %li.slide
+        .jumbotron
+          .bg.animated{style: 'background-image: url(/assets/images/splash-chen-xing-spread.jpg);'}
+          .content.vcenter
+            .row
+              .col-md-6.col-md-offset-3.text-center
+                %h1{style: 'background-color:#000; color:#fff; opacity:0.7; margin: 5px; padding:0.4em;'} web development
+                %h1{style: 'background-color:#000; color:#fff; opacity:0.7; margin: 5px; padding:0.4em;'} for book publishers
+                = link_to 'More ↓', '#start', class: 'btn anchor', style: 'background-color:#fff; color:#000; opacity:0.7; margin: 5px; padding:0.4em 0.8em;'
+      %li.slide.dark
+        .jumbotron
+          .bg.faded.animated{style: 'background-image: url(/assets/images/splash-chen-xing-pages.jpg);'}
+          .content.vcenter
+            .row
+              .col-md-6.col-md-offset-3.text-center
+                %h1 Embrace new technologies to reach larger audiences
+                = link_to 'More ↓', '#start', class: 'btn anchor'
+      %li.slide.dark
+        .jumbotron
+          .bg.faded.animated{style: 'background-image: url(/assets/images/splash-chen-xing-cover.jpg);'}
+          .content.vcenter
+            .row
+              .col-md-6.col-md-offset-3.text-center
+                %h1 Showcase your work like never before
+                = link_to 'More ↓', '#start', class: 'btn anchor'
+
+%section#start.bg-dark
+  .content.row
+    .col-md-6.col-md-offset-3
+      %h2 about
+      %p Propulsion is a small development team that relishes the creative process. Our work entails analyzing business systems, developing improvements and then relentlessly iterating.
+      %p Over the course of our careers, the individual developers at propulsion have created solutions for Société Général de Surveillance, Petroconsulants (now IHS Energy Group), Discount Bank &amp; Trust Company, Banque Piguet, and Firmenich, among others.
+
+%section.bg-darker
+  .bg
+  .row
+    .col-md-8
+      %blockquote.text-center A talent for technical details <br />combined with an eye for aesthetics.

@@ -1,0 +1,19 @@
+%footer.top-line
+  .row.text-center
+    .col-md-6
+      .fa.fa-building-o
+      %p
+        Lake Tahoe, California
+    .col-md-6
+      .fa.fa-envelope-o
+      %p
+        info@propulsion.co
+%footer.gray.text-center
+  .row
+    .col-md-12
+      = link_to '', 'https://twitter.com/milkfarm', class: 'icon fa fa-twitter'
+      = link_to '', 'http://blog.milkfarmproductions.com', class: 'icon fa fa-tumblr'
+  .row
+    .col-md-12
+      .copy &copy; #{Time.now.year} a #{link_to 'milkfarm', 'http://milkfarmproductions.com'} production. all rights reserved.
+      .copy image credits: #{link_to 'Chen Xing', 'https://www.behance.net/xingchen'}
