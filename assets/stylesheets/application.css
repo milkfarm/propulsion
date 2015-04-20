@@ -435,8 +435,8 @@ button {
 
 /* line 1, /Users/tim/Sites/propulsion/source/assets/stylesheets/base/_forms.scss */
 fieldset {
-  background-color: #f7f7f7;
-  border: 1px solid #ddd;
+  background-color: white;
+  border: 1px solid #eee;
   margin: 0 0 0.75em;
   padding: 1.5em; }
 
@@ -464,7 +464,7 @@ input[type="email"], input[type="number"], input[type="password"], input[type="s
 select[multiple=multiple],
 textarea {
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #eee;
   border-radius: 3px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
@@ -478,7 +478,7 @@ textarea {
   input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover,
   select[multiple=multiple]:hover,
   textarea:hover {
-    border-color: #c4c4c4; }
+    border-color: #d4d4d4; }
   /* line 48, /Users/tim/Sites/propulsion/source/assets/stylesheets/base/_forms.scss */
   input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
   select[multiple=multiple]:focus,
@@ -546,14 +546,14 @@ table {
 
 /* line 9, /Users/tim/Sites/propulsion/source/assets/stylesheets/base/_tables.scss */
 th {
-  border-bottom: 1px solid #b7b7b7;
+  border-bottom: 1px solid #c8c8c8;
   font-weight: 600;
   padding: 0.75em 0;
   text-align: left; }
 
 /* line 16, /Users/tim/Sites/propulsion/source/assets/stylesheets/base/_tables.scss */
 td {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #eee;
   padding: 0.75em 0; }
 
 /* line 21, /Users/tim/Sites/propulsion/source/assets/stylesheets/base/_tables.scss */
@@ -604,7 +604,7 @@ a {
 
 /* line 43, /Users/tim/Sites/propulsion/source/assets/stylesheets/base/_typography.scss */
 hr {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #eee;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -630,18 +630,32 @@ html {
 
 /* line 1, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 body {
-  background-color: #ddd;
+  background-color: #eee;
   color: #999; }
 
 /* line 6, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+section .content a.more {
+  background-color: #000;
+  color: #fff;
+  opacity: 0.7;
+  margin-right: 5px;
+  padding: 0.4em 0.8em; }
+
+/* line 13, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+section .content a.more:hover {
+  color: #fff;
+  opacity: 1.0;
+  border-bottom: none; }
+
+/* line 18, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .msg {
   color: #e74c3c; }
 
-/* line 9, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 21, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .notice {
   color: #4cb73c; }
 
-/* line 12, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 24, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .jumbotron h1.blocked {
   background-color: #000;
   color: #fff;
@@ -649,7 +663,7 @@ body {
   margin: 5px;
   padding: 0.4em; }
 
-/* line 19, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 31, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .jumbotron a.blocked {
   background-color: #fff;
   color: #000;
@@ -657,47 +671,51 @@ body {
   margin: 5px;
   padding: 0.4em 0.8em; }
 
-/* line 26, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 38, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .chen-spread {
   background-image: url("../images/splash-chen-xing-spread.jpg"); }
 
-/* line 29, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 41, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .chen-pages {
   background-image: url("../images/splash-chen-xing-pages.jpg"); }
 
-/* line 32, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 44, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .chen-cover {
   background-image: url("../images/splash-chen-xing-cover.jpg"); }
 
-/* line 35, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 47, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+.midamerica, .abdo, .cherrylake, .sleepingbear, .childsworld, .mollyomara, .bourgeois {
+  border: 16px solid #eee; }
+
+/* line 50, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .midamerica {
   background-image: url("../images/clients/midamerica.jpg"); }
 
-/* line 38, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 53, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .abdo {
   background-image: url("../images/clients/abdo.png"); }
 
-/* line 41, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 56, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .cherrylake {
   background-image: url("../images/clients/cherrylake.jpg"); }
 
-/* line 44, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 59, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .sleepingbear {
   background-image: url("../images/clients/sleepingbear.jpg"); }
 
-/* line 47, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 62, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .childsworld {
   background-image: url("../images/clients/childsworld.jpg"); }
 
-/* line 50, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 65, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .mollyomara {
   background-image: url("../images/clients/mollyomara.jpg"); }
 
-/* line 53, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 68, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .bourgeois {
   background-image: url("../images/clients/bourgeois.jpg"); }
 
-/* line 56, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 71, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .logo {
   background-image: url("../images/logo.svg"); }
 
