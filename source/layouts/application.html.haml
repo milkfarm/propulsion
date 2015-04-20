@@ -4,7 +4,7 @@
     %meta{charset: "utf-8"}
     %meta{content: "IE=edge,chrome=1", http: {equiv: "X-UA-Compatible"}}
     %meta{name: "viewport", content: "width=device-width, initial-scale=1"}
-    %title= current_page.data.title || 'propulsion'
+    %title= page_title(current_page.data.title)
 
     <!-- Fonts -->
     = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Roboto:100,400,300,700'
