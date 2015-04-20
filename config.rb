@@ -19,9 +19,22 @@ configure :build do
   activate :relative_assets
 end
 
-activate :deploy do |deploy|
-  deploy.build_before = true
-  deploy.method = :git
+case ENV['TARGET'].to_s.downcase
+when 'production'
+  activate :deploy do |deploy|
+    deploy.build_before = true
+    deploy.method = :rsync
+    deploy.user = 'propulsion'
+    deploy.host = 'propulsion.co'
+    deploy.path = '/var/www/static.propulsion.co/httpdocs'
+    deploy.clean = true
+    deploy.port = 22
+  end
+else
+  activate :deploy do |deploy|
+    deploy.build_before = true
+    deploy.method = :git
+  end
 end
 
 sprockets.import_asset 'html5shiv'
