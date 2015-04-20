@@ -634,6 +634,14 @@ body {
   color: #999; }
 
 /* line 6, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+.msg {
+  color: #e74c3c; }
+
+/* line 9, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+.notice {
+  color: #4cb73c; }
+
+/* line 12, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .jumbotron h1.blocked {
   background-color: #000;
   color: #fff;
@@ -641,7 +649,7 @@ body {
   margin: 5px;
   padding: 0.4em; }
 
-/* line 13, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 19, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .jumbotron a.blocked {
   background-color: #fff;
   color: #000;
@@ -649,47 +657,47 @@ body {
   margin: 5px;
   padding: 0.4em 0.8em; }
 
-/* line 20, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 26, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .chen-spread {
   background-image: url("../images/splash-chen-xing-spread.jpg"); }
 
-/* line 23, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 29, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .chen-pages {
   background-image: url("../images/splash-chen-xing-pages.jpg"); }
 
-/* line 26, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 32, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .chen-cover {
   background-image: url("../images/splash-chen-xing-cover.jpg"); }
 
-/* line 29, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 35, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .midamerica {
   background-image: url("../images/clients/midamerica.jpg"); }
 
-/* line 32, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 38, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .abdo {
   background-image: url("../images/clients/abdo.png"); }
 
-/* line 35, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 41, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .cherrylake {
   background-image: url("../images/clients/cherrylake.jpg"); }
 
-/* line 38, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 44, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .sleepingbear {
   background-image: url("../images/clients/sleepingbear.jpg"); }
 
-/* line 41, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 47, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .childsworld {
   background-image: url("../images/clients/childsworld.jpg"); }
 
-/* line 44, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 50, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .mollyomara {
   background-image: url("../images/clients/mollyomara.jpg"); }
 
-/* line 47, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 53, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .bourgeois {
   background-image: url("../images/clients/bourgeois.jpg"); }
 
-/* line 50, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 56, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .logo {
   background-image: url("../images/logo.svg"); }
 
