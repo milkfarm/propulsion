@@ -24,14 +24,16 @@ Made by Themanoid
         var $sldr = $(this);
         if($sldr.hasClass('multi-slides')){
             $mousePos.x = e.pageX;
-            if($mousePos.x > $(window).width()/2) {
+            if($mousePos.x > $(window).width() * 2/3) {
                 $sldr.css('cursor', 'url(assets/images/tera-slider/slide-right-dark.png), e-resize');
                 if($('body').hasClass('dark-slide'))
                     $sldr.css('cursor', 'url(assets/images/tera-slider/slide-right.png), e-resize');
-            } else {
+            } else if($mousePos.x < $(window).width() * 1/3) {
                $sldr.css('cursor', 'url(assets/images/tera-slider/slide-left-dark.png), w-resize');
                 if($('body').hasClass('dark-slide'))
                     $sldr.css('cursor', 'url(assets/images/tera-slider/slide-left.png), w-resize');
+            } else {
+               $sldr.css('cursor', 'auto');
             }
         }
     });
