@@ -7,7 +7,7 @@
     .col-md-6
       .fa.fa-envelope-o
       %p
-        info@propulsion.co
+        = data.config.company_email
 %footer.gray.text-center
   .row
     .col-md-12
@@ -16,4 +16,4 @@
   .row
     .col-md-12
       .copy &copy; #{Time.now.year} a #{link_to 'milkfarm', 'http://milkfarmproductions.com'} production. all rights reserved.
-      .copy image credits: #{link_to 'Chen Xing', 'https://www.behance.net/xingchen'}
+      .copy image credits: #{link_to 'chen xing', 'https://www.behance.net/xingchen'}
