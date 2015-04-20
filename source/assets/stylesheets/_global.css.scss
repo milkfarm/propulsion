@@ -44,7 +44,7 @@ section .content a.more:hover {
 .chen-cover {
   background-image: image-url('splash-chen-xing-cover.jpg');
 }
-.midamerica, .abdo, .cherrylake, .sleepingbear, .childsworld, .mollyomara, .bourgeois {
+.midamerica, .abdo, .cherrylake, .sleepingbear, .childsworld, .mollyomara, .bourgeois, .dreamslice {
   border: 16px solid $light-gray;
 }
 .midamerica {
@@ -67,6 +67,9 @@ section .content a.more:hover {
 }
 .bourgeois {
   background-image: image-url('clients/bourgeois.jpg');
+}
+.dreamslice {
+  background-image: image-url('clients/dreamslice.jpg');
 }
 .logo {
   background-image: image-url('logo.svg');
