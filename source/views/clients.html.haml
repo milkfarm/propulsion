@@ -7,7 +7,7 @@ title: clients
     .col-md-4.mobile-center
       %h2 Clients
     .col-md-8
-      %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus accumsan leo, nec congue risus feugiat ac. Mauris viverra ligula velit, sit amet imperdiet nunc tincidunt in. Ut tristique quam congue, aliquam tortor sit amet.
+      %p Over our tenure, we've developed two applications, namely #{link_to 'TitleLeaf', 'http://titleleaf.com'} and Folio. Using the filters below, our clients can be categorized by the application they utilize.
 
 %section.top-line
   .row
@@ -21,7 +21,7 @@ title: clients
             %button{'data-filter' => '.titleleaf'} TitleLeaf
           %li
             %button{'data-filter' => '.folio'} Folio
-  #grid.col-3
+  #grid
     = link_to 'http://midamericabooks.com', class: 'item transition titleleaf visible midamerica' do
       .caption
         %h5.extra October 2014

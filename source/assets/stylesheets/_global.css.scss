@@ -44,6 +44,9 @@ section .content a.more:hover {
 .chen-cover {
   background-image: image-url('splash-chen-xing-cover.jpg');
 }
+.midamerica, .abdo, .cherrylake, .sleepingbear, .childsworld, .mollyomara, .bourgeois {
+  border: 16px solid $light-gray;
+}
 .midamerica {
   background-image: image-url('clients/midamerica.jpg');
 }
