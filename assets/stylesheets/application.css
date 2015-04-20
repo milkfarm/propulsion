@@ -684,7 +684,7 @@ section .content a.more:hover {
   background-image: url("../images/splash-chen-xing-cover.jpg"); }
 
 /* line 47, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
-.midamerica, .abdo, .cherrylake, .sleepingbear, .childsworld, .mollyomara, .bourgeois {
+.midamerica, .abdo, .cherrylake, .sleepingbear, .childsworld, .mollyomara, .bourgeois, .dreamslice {
   border: 16px solid #eee; }
 
 /* line 50, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
@@ -716,6 +716,10 @@ section .content a.more:hover {
   background-image: url("../images/clients/bourgeois.jpg"); }
 
 /* line 71, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+.dreamslice {
+  background-image: url("../images/clients/dreamslice.jpg"); }
+
+/* line 74, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .logo {
   background-image: url("../images/logo.svg"); }
 
