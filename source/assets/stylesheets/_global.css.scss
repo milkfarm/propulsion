@@ -3,6 +3,50 @@ body {
   color: $medium-gray;
 }
 
-#grid.item {
-  opacity: 1;
+.jumbotron h1.blocked {
+  background-color:#000;
+  color:#fff;
+  opacity:0.7;
+  margin:5px;
+  padding:0.4em;
+}
+.jumbotron a.blocked {
+  background-color:#fff;
+  color:#000;
+  opacity:0.7;
+  margin:5px;
+  padding:0.4em 0.8em;
+}
+.chen-spread {
+  background-image: image-url('splash-chen-xing-spread.jpg');
+}
+.chen-pages {
+  background-image: image-url('splash-chen-xing-pages.jpg');
+}
+.chen-cover {
+  background-image: image-url('splash-chen-xing-cover.jpg');
+}
+.midamerica {
+  background-image: image-url('clients/midamerica.jpg');
+}
+.abdo {
+  background-image: image-url('clients/abdo.png');
+}
+.cherrylake {
+  background-image: image-url('clients/cherrylake.jpg');
+}
+.sleepingbear {
+  background-image: image-url('clients/sleepingbear.jpg');
+}
+.childsworld {
+  background-image: image-url('clients/childsworld.jpg');
+}
+.mollyomara {
+  background-image: image-url('clients/mollyomara.jpg');
+}
+.bourgeois {
+  background-image: image-url('clients/bourgeois.jpg');
+}
+.logo {
+  background-image: image-url('logo.svg');
 }
