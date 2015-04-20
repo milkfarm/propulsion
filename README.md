@@ -2,7 +2,7 @@
 
 ## About Propulsion Website
 
-The propulsion website is built with Middleman. Middleman is a static site generator
+The [propulsion website](http://milkfarm.github.io/propulsion/) is built with Middleman. Middleman is a static site generator
 developed by thoughbot, inc.
 
 ## Credits
