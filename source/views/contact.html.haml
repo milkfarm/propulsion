@@ -14,14 +14,14 @@ title: contact | propulsion
 %section.top-line
   .row.vcenter
     = form_tag 'https://getsimpleform.com/messages?form_api_token=3b8bbcbdf26210278973abe522bc23f5', id: 'contact_form' do
+      %input{ type: 'hidden', name: 'redirect_to', value: 'http://milkfarm.github.io/propulsion/confirm.html' }
+      %input{ type: 'hidden', name: 'subject', value: 'Contact Form' }
       .col-md-8.col-md-offset-2
         .block
           .row
-            %p.msg{ style: 'display:none; color:red;' } Please complete the form accordingly.
+            %p.msg{ style: 'display:none;' } Please complete the form accordingly.
           .row
             .col-md-6
-              %input{ type: 'hidden', name: 'redirect_to', value: 'http://milkfarm.github.io/propulsion/confirm.html' }
-              %input{ type: 'hidden', name: 'subject', value: 'Contact Form' }
               %input.form-control#name{ name: 'name', placeholder: 'Name', type: 'text' }
               %input.form-control#email{ name: 'email', placeholder: 'E-mail', type: 'text' }
               %input.form-control#phone{ name: 'phone', placeholder: 'Phone', type: 'text' }
@@ -30,4 +30,4 @@ title: contact | propulsion
           .row
             .col-md-12.text-center
               %button.btn#send{ type: 'submit' } Send
-              %p.notice{ style: 'display:none; color:green;' } We will respond as soon as possible.
+              %p.notice{ style: 'display:none;' } We will respond as soon as possible.

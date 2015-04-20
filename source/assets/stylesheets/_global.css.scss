@@ -3,6 +3,12 @@ body {
   color: $medium-gray;
 }
 
+.msg {
+  color: $red;
+}
+.notice {
+  color: $green;
+}
 .jumbotron h1.blocked {
   background-color:#000;
   color:#fff;
