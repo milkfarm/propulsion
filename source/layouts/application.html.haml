@@ -19,6 +19,8 @@
     = javascript_include_tag 'html5shiv', 'respond.min'
     <![endif]-->
 
+    = partial 'partials/analytics' unless current_page.data.hide_analytics
+
   - splash = ( yield_content :splash )
 
   %body{class: "#{page_classes} dark #{splash.present? ? 'bottom-nav' : 'top-nav'}"}
