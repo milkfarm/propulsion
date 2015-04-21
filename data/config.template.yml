@@ -5,3 +5,4 @@ deploy_user:
 deploy_host:
 deploy_path:
 deploy_port:
+google_analytics_tracker:
