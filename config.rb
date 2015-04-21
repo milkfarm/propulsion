@@ -24,11 +24,11 @@ when 'production'
   activate :deploy do |deploy|
     deploy.build_before = true
     deploy.method = :rsync
-    deploy.user = 'propulsion'
-    deploy.host = 'propulsion.co'
-    deploy.path = '/var/www/static.propulsion.co/httpdocs'
+    deploy.user = data.config.deploy_user
+    deploy.host = data.config.deploy_host
+    deploy.path = data.config.deploy_path
     deploy.clean = true
-    deploy.port = 22
+    deploy.port = data.config.deploy_port
   end
 else
   activate :deploy do |deploy|
