@@ -1,18 +1,13 @@
-body {
-  background-color: $light-gray;
-  color: $medium-gray;
-}
-
 section .content a.more {
   background-color:#000;
   color:#fff;
-  opacity:0.7;
+  @include opacity(0.7);
   margin-right:5px;
   padding:0.4em 0.8em;
 }
 section .content a.more:hover {
   color:#fff;
-  opacity:1.0;
+  @include opacity(1.0);
   border-bottom:none;
 }
 .msg {
@@ -21,17 +16,17 @@ section .content a.more:hover {
 .notice {
   color: $green;
 }
-.jumbotron h1.blocked {
+.slider ul.slides li.slide.active .jumbotron h1.blocked {
   background-color:#000;
   color:#fff;
-  opacity:0.7;
+  @include opacity(0.8);
   margin:5px;
   padding:0.3em;
 }
 .jumbotron a.blocked {
   background-color:#fff;
   color:#000;
-  opacity:0.7;
+  @include opacity(0.7);
   margin:5px;
   padding:0.4em 0.8em;
 }

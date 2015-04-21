@@ -1,0 +1,8 @@
+/*Change Opacity*/
+@mixin opacity($opacity) {
+  opacity:$opacity;
+  -moz-opacity:$opacity;
+  -webkit-opacity:$opacity;
+  -ms-filter: unquote("progid:DXImageTransform.Microsoft.Alpha(Opacity=#{round($opacity * 100)})");
+  filter: alpha(opacity=($opacity * 100));
+}
