@@ -69,3 +69,10 @@ section .content a.more:hover {
 .logo {
   background-image: image-url('logo.svg');
 }
+.map { float:left; width:60%; }
+@media screen and (min-width: 1600px) {
+  .map { float:left; width:700px; }
+}
+@media screen and (max-width: 767px) {
+  .map { float:left; width:50%; }
+}
