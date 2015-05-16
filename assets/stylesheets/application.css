@@ -733,17 +733,26 @@ section .content a.more:hover {
   background-image: url("../images/logo.svg"); }
 
 /* line 77, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+a.get-in-touch {
+  border-bottom: 1px solid #999;
+  text-decoration: none; }
+  /* line 80, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+  a.get-in-touch:hover {
+    border-bottom: 1px solid #fff;
+    text-decoration: none; }
+
+/* line 85, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .map {
   float: left;
   width: 60%; }
 
 @media screen and (min-width: 1600px) {
-  /* line 79, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+  /* line 87, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
   .map {
     float: left;
     width: 700px; } }
 @media screen and (max-width: 767px) {
-  /* line 82, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+  /* line 90, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
   .map {
     float: left;
     width: 50%; } }
