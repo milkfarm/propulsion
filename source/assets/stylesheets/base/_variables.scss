@@ -19,12 +19,15 @@ $base-z-index: 0;
 $red: #e74c3c;
 $green: #4cb73c;
 $blue: #477dca;
+$orange: #ff7700;
+$black: #000;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #eee;
+$white: #fff;
 
 // Font Colors
-$base-background-color: #fff;
+$base-background-color: $white;
 $base-font-color: $dark-gray;
 $action-color: $blue;
 
