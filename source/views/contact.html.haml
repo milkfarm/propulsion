@@ -9,9 +9,11 @@ title: contact
     .col-md-8
       %p
         Interested in improving the way you do business on the web?
-        %span.highlight Get in touch.
+        %span.highlight= link_to 'Get in touch.', '#get-in-touch'
 
-%section.top-line
+      %iframe{ width: '100%', height: '150px', frameBorder: '0', src: 'https://a.tiles.mapbox.com/v4/propulsion.7c4a5a6f/attribution.html?access_token=pk.eyJ1IjoicHJvcHVsc2lvbiIsImEiOiJuYmZ1eGtnIn0.C2mc5AGbQWh0f3U2jP2z8g' }
+
+%section#get-in-touch.top-line
   .row.vcenter
     = form_tag 'https://getsimpleform.com/messages?form_api_token=3b8bbcbdf26210278973abe522bc23f5', id: 'contact_form' do
       %input{ type: 'hidden', name: 'redirect_to', value: 'http://milkfarm.github.io/propulsion/confirm.html' }
