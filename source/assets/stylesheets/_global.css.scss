@@ -83,9 +83,13 @@ a.get-in-touch {
   }
 }
 .map { float:left; width:60%; }
+
 @media screen and (min-width: 1600px) {
   .map { float:left; width:700px; }
 }
 @media screen and (max-width: 767px) {
   .map { float:left; width:50%; }
+}
+@media screen and (max-width: 480px) {
+  .map { float:none; width:200px; }
 }
