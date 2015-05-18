@@ -747,15 +747,20 @@ a.get-in-touch {
   width: 60%; }
 
 @media screen and (min-width: 1600px) {
-  /* line 87, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+  /* line 88, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
   .map {
     float: left;
     width: 700px; } }
 @media screen and (max-width: 767px) {
-  /* line 90, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+  /* line 91, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
   .map {
     float: left;
     width: 50%; } }
+@media screen and (max-width: 480px) {
+  /* line 94, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+  .map {
+    float: none;
+    width: 200px; } }
 /*!
  * Bootstrap v3.3.2 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
