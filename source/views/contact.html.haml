@@ -17,8 +17,8 @@ title: contact
 
 %section#get-in-touch.top-line
   .row.vcenter
-    = form_tag 'https://getsimpleform.com/messages?form_api_token=3b8bbcbdf26210278973abe522bc23f5', id: 'contact_form' do
-      %input{ type: 'hidden', name: 'redirect_to', value: 'http://milkfarm.github.io/propulsion/confirm.html' }
+    = form_tag 'https://formkeep.com/f/40f8d2f44e9c', id: 'contact_form' do
+      %input{ type: 'hidden', name: 'utf8', value: '✓' }
       %input{ type: 'hidden', name: 'subject', value: 'Contact Form' }
       .col-md-8.col-md-offset-2
         .block
@@ -34,4 +34,3 @@ title: contact
           .row
             .col-md-12.text-center
               %button.btn#send{ type: 'submit' } Send
-              %p.notice{ style: 'display:none;' } We will respond as soon as possible.
