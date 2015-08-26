@@ -44,8 +44,14 @@ section .content a.more:hover {
 .chen-cover {
   background-image: image-url('splash-chen-xing-cover.jpg');
 }
-.midamerica, .abdo, .cherrylake, .sleepingbear, .childsworld, .mollyomara, .bourgeois, .dreamslice {
+.epicpress, .bearport, .midamerica, .abdo, .cherrylake, .sleepingbear, .childsworld, .mollyomara, .bourgeois, .dreamslice {
   border: 16px solid $light-gray;
+}
+.epicpress {
+  background-image: image-url('clients/epicpress.jpg');
+}
+.bearport {
+  background-image: image-url('clients/bearport.jpg');
 }
 .midamerica {
   background-image: image-url('clients/midamerica.jpg');
