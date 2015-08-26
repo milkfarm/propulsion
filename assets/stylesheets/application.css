@@ -693,71 +693,79 @@ section .content a.more:hover {
   background-image: url("../images/splash-chen-xing-cover.jpg"); }
 
 /* line 47, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
-.midamerica, .abdo, .cherrylake, .sleepingbear, .childsworld, .mollyomara, .bourgeois, .dreamslice {
+.epicpress, .bearport, .midamerica, .abdo, .cherrylake, .sleepingbear, .childsworld, .mollyomara, .bourgeois, .dreamslice {
   border: 16px solid #eee; }
 
 /* line 50, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+.epicpress {
+  background-image: url("../images/clients/epicpress.jpg"); }
+
+/* line 53, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+.bearport {
+  background-image: url("../images/clients/bearport.jpg"); }
+
+/* line 56, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .midamerica {
   background-image: url("../images/clients/midamerica.jpg"); }
 
-/* line 53, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 59, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .abdo {
   background-image: url("../images/clients/abdo.png"); }
 
-/* line 56, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 62, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .cherrylake {
   background-image: url("../images/clients/cherrylake.jpg"); }
 
-/* line 59, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 65, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .sleepingbear {
   background-image: url("../images/clients/sleepingbear.jpg"); }
 
-/* line 62, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 68, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .childsworld {
   background-image: url("../images/clients/childsworld.jpg"); }
 
-/* line 65, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 71, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .mollyomara {
   background-image: url("../images/clients/mollyomara.jpg"); }
 
-/* line 68, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 74, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .bourgeois {
   background-image: url("../images/clients/bourgeois.jpg"); }
 
-/* line 71, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 77, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .dreamslice {
   background-image: url("../images/clients/dreamslice.jpg"); }
 
-/* line 74, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 80, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .logo {
   background-image: url("../images/logo.svg"); }
 
-/* line 77, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 83, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 a.get-in-touch {
   border-bottom: 1px solid #999;
   text-decoration: none; }
-  /* line 80, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+  /* line 86, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
   a.get-in-touch:hover {
     border-bottom: 1px solid #fff;
     text-decoration: none; }
 
-/* line 85, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+/* line 91, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
 .map {
   float: left;
   width: 60%; }
 
 @media screen and (min-width: 1600px) {
-  /* line 88, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+  /* line 94, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
   .map {
     float: left;
     width: 700px; } }
 @media screen and (max-width: 767px) {
-  /* line 91, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+  /* line 97, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
   .map {
     float: left;
     width: 50%; } }
 @media screen and (max-width: 480px) {
-  /* line 94, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
+  /* line 100, /Users/tim/Sites/propulsion/source/assets/stylesheets/_global.css.scss */
   .map {
     float: none;
     width: 200px; } }
